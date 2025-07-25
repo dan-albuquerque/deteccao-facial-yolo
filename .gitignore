@@ -1,0 +1,62 @@
+# Datasets baixados
+Face-Detection-*/
+*.zip 
+
+# Variáveis de ambiente (credenciais)
+.env
+
+# Resultados de treinamento e predições do YOLO
+runs/
+# Exceções: manter predict2 e ignorar apenas results.csv da pasta train
+!runs/detect/predict2/
+!runs/detect/train/
+runs/detect/train/results.csv
+
+# Modelos pré-treinados e treinados
+*.pt
+*.onnx
+*.engine
+
+# Ambientes virtuais
+nome_da_venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+wandb/
