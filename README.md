@@ -97,6 +97,7 @@ O script irá:
 
 * Você pode ajustar parâmetros do treinamento no script `transfer_yolo_train.py`, como `epochs`, `imgsz`, `batch`, etc.
 * O modelo usado é o `YOLOv8n` (versão leve). Pode trocar por `yolov8s.pt`, `yolov8m.pt` etc. para mais precisão.
+* Dentro da pasta "predict2" tem um exemplo de uma imagem depois do modelo fazer sua inferência
 
 ---
 
